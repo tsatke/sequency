@@ -1,0 +1,30 @@
+@import '../../../variables';
+
+.custom-MUI-tabview {
+  .tab-header {
+    margin-bottom: 20px;
+    .MuiButtonBase-root {
+      text-transform: none;
+      font-size: $text-medium;
+      padding: 0px 40px;
+      line-height: $text-medium;
+      &:first-child {
+        padding: 0px 0px;
+      }
+      &.Mui-selected {
+        color: $blue;
+      }
+    }
+    .MuiTabs-indicator {
+      background-color: $blue;
+    }
+  }
+  .tab-content {
+    &.hidden {
+      display: none;
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+  }
+}

@@ -1,0 +1,14 @@
+@import '../../../variables';
+
+.custom-MUI-button {
+  &.MuiButton-root {
+    background-color: $black;
+    padding: 7.5px 10px;
+    &:hover {
+      background-color: $black;
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+  }
+}

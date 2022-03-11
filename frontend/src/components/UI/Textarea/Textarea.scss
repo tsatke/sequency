@@ -1,0 +1,16 @@
+@import '../../../variables';
+
+.custom-MUI-textarea {
+  &.MuiTextField-root {
+    .MuiFilledInput-root:after,
+    .MuiInput-root:after {
+      border-color: $black;
+    }
+    .MuiInputLabel-shrink {
+      color: $black;
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+  }
+}

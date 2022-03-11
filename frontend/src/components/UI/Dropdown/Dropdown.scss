@@ -1,0 +1,15 @@
+@import '../../../variables';
+
+.custom-MUI-dropdown {
+  &.MuiFormControl-root {
+    .MuiFilledInput-root:after {
+      border-color: $black;
+    }
+    .MuiInputLabel-shrink {
+      color: $black;
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+  }
+}

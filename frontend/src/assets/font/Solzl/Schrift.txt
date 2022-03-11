@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="https://use.typekit.net/ekt8vjp.css">
+
+
+Stolzl Thin
+
+font-family: stolzl, sans-serif;
+
+font-weight: 100;
+
+font-style: normal;
+
+
+Stolzl Light
+
+font-family: stolzl, sans-serif;
+
+font-weight: 200;
+
+font-style: normal;
+
+
+Stolzl Book
+
+font-family: stolzl, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Stolzl Regular
+
+font-family: stolzl, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Stolzl Medium
+
+font-family: stolzl, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Stolzl Bold
+
+font-family: stolzl, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;

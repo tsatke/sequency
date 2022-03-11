@@ -1,0 +1,11 @@
+@import '../../../variables';
+
+.custom-MUI-checkbox {
+  .MuiCheckbox-colorPrimary {
+    &.Mui-checked {
+      .MuiSvgIcon-root * {
+        color: $black;
+      }
+    }
+  }
+}

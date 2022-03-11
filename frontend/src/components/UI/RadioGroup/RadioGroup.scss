@@ -1,0 +1,41 @@
+@import '../../../variables';
+
+.custom-MUI-radiogroup {
+  &.inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .MuiFormLabel-root {
+      flex: 1 1 0px;
+    }
+    .name {
+      width: 45%;
+    }
+    .content {
+      width: 55%;
+      text-align: right;
+      justify-content: end;
+    }
+  }
+
+  .MuiFormLabel-root {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-family: 'Solzl-Book', sans-serif;
+    font-size: 15px;
+    color: $black;
+    &.Mui-focused {
+      color: $black;
+    }
+  }
+
+  .MuiRadio-root {
+    svg * {
+      color: $blue;
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+  }
+}

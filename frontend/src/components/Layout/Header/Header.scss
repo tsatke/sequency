@@ -1,0 +1,44 @@
+@import '../../../variables.scss';
+
+#header {
+  background-color: $black;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1000;
+  // height: 80px;
+  // padding: 15px;
+
+  .logo {
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: 'Orbitron-Bold';
+    color: $white;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .elements {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+    .logo,
+    .search,
+    .item {
+      flex: 1 1 0px;
+    }
+    .search input {
+      font-size: $font-size-menu;
+      border: none;
+      padding: 3px 10px;
+      &:active,
+      &:focus {
+        border: none;
+      }
+    }
+    .item.selected {
+      color: $blue;
+    }
+  }
+}

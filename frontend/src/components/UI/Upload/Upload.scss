@@ -1,0 +1,53 @@
+@import '../../../variables';
+
+.custom-upload-handler {
+  .upload-input {
+    display: none;
+  }
+  .upload-display {
+    border: thin solid $blue;
+    border-radius: $default-border-radius;
+    overflow: hidden;
+    margin-bottom: 5px;
+    .upload-input-label {
+      background-color: $blue;
+      color: $white;
+      padding: 5px 10px;
+      display: block;
+      cursor: pointer;
+    }
+    .processing {
+      text-align: center;
+      padding: 5px;
+    }
+    .file-list {
+      padding: 5px;
+      .file {
+        padding: 5px;
+        border-top: thin solid $gray;
+        display: flex;
+        .name {
+          width: 90%;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .remove-wrapper {
+          width: 10%;
+          text-align: center;
+          .remove {
+            cursor: pointer;
+          }
+        }
+        &:first-child {
+          border-top: none;
+        }
+      }
+    }
+  }
+  &:last-child {
+    .upload-display {
+      margin-bottom: 0px;
+    }
+  }
+}

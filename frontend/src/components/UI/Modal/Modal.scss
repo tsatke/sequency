@@ -1,0 +1,28 @@
+@import '../../../variables';
+#modal {
+  .header {
+    .headerContentWrapper {
+      display: flex;
+      padding: 10px;
+      .title {
+        width: 90%;
+        font-size: $text-x-large;
+      }
+      .closeWrapper {
+        width: 10%;
+        text-align: right;
+        cursor: pointer;
+      }
+    }
+
+    .borderBottom {
+      width: 95%;
+      margin: auto;
+      border-bottom: 2px solid black;
+      opacity: 0.3;
+    }
+  }
+  .body {
+    padding: 10px;
+  }
+}

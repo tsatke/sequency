@@ -1,0 +1,46 @@
+@import "./variables.scss";
+@import "~bootstrap/scss/bootstrap";
+@import "react-toastify/dist/ReactToastify.css";
+
+@font-face {
+  font-family: "Solzl-Book";
+  src: local("Solzl-Book"),
+    url(./assets/font/Solzl/Stolzl-Book.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Stolzl-Bold";
+  src: local("Stolzl-Bold"),
+    url(./assets/font/Solzl/Stolzl-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Stolzl-Light";
+  src: local("Stolzl-Light"),
+    url(./assets/font/Solzl/Stolzl-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Stolzl-Medium";
+  src: local("Stolzl-Medium"),
+    url(./assets/font/Solzl/Stolzl-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Stolzl-Bold";
+  src: local("Stolzl-Regular"),
+    url(./assets/font/Solzl/Stolzl-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Stolzl-Thin";
+  src: local("Stolzl-Thin"),
+    url(./assets/font/Solzl/Stolzl-Thin.ttf) format("truetype");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Solzl-Book", sans-serif;
+  font-size: $text-medium;
+  color: $black;
+}
+
+body {
+  font-family: "Solzl-Book", sans-serif;
+}

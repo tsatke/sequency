@@ -1,0 +1,32 @@
+$superblack: #000000;
+$black: #1b1919;
+$white: #ffffff;
+$blue: rgb(21, 44, 87);
+$lightblue: rgb(136, 149, 170);
+$gray: rgb(217, 217, 217);
+$dark-red: #b81434;
+$red: #db4949;
+$green: #21b692;
+
+$bg: rgb(245, 247, 247);
+
+$color-main: $red;
+
+$text-x-small: 11px;
+$text-small: 13px;
+$text-medium: 15px;
+$text-large: 18px;
+$text-x-large: 21px;
+
+$font-size-menu: $text-large;
+
+$default-border-radius: 10px;
+
+$default-box-shadow: 0px 5px 8px -1px rgba(21, 44, 87, 0.39);
+// $default-box-shadow: 0 0 24px #ddd;
+
+$default-zoom-in-scale: scale(1.005);
+
+$default-transition-speed: 0.2s;
+
+$breakpoint: 992px;
